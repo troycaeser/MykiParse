@@ -1,0 +1,18 @@
+Monday:
+	Top ups:
+		11:30am, myki machine - myki money top up $10
+	Travel:
+		Train journey - Windsor (Z1) (0905) -> Flinders Street (Z1) (0915)
+			Two hour Z1 fare. $3.50 charged - expires at 1200
+		Tram journey - Touch on (Z1) (0925), no touch off
+			Previous two hour fare Z1 still applies. No fare charged.
+		Tram journey - Touch on (Z1) (1310), no touch off
+			Daily Z1 fare. $3.50 will be charged at next touch on.
+		Train journey - Flinders Street (Z1) (1600) -> Windsor (Z1) (1620)
+			Daily Z1 cap has been reached. No fare charged.
+		Bus journey - Touch on (Z1) (1900) -> Touch off (Z2) (1940)
+			Daily Z1 cap has been reached. No Z1 fare charged.
+			Two hour Z2 fare. $2.42 charged - expires at 0300
+		Bus journey - Touch on (Z2) 2300 -> Touch off (Z1) 2340
+			Daily Z1 cap has been reached. No Z1 fare charged.
+			Previous two hour Z2 fare still applies. No fare charged.

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- I'm not sure what the title is-->
+    <title>Myki Parse</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="grid.css">
+  </head>
+  <body>
+    <div class="box grid grid-">
+      <div class="menu">
+        <p>Current Balance: <strong>$72.40</strong></p>
+      </div>
+      <div class="main_box col-1-4">
+        <div class="main_days">
+          <h1>Monday</h1>
+          <h3>August 7</h3>
+          <div class="main_transaction">
+            <p>Topped up at <span class="main_transaction_time">11:30</span> with a <span class="main_transaction_type">myki - machine </span></p><span class="main_transaction_amount">+ $10.00</span>
+          </div>
+        </div>
+        <div class="main_days">
+          <h1>Tuesday</h1>
+          <h3>August 8</h3>
+          <div class="main_transaction">
+            <p>Topped up at <span class="main_transaction_time">07:45</span> with a <span class="main_transaction_type">myki - machine </span></p><span class="main_transaction_amount">+ $3.70</span>
+          </div>
+        </div>
+        <div class="main_days">
+          <h1>Wednesday</h1>
+          <h3>August 9</h3>
+          <div class="main_transaction">
+            <p>Topped up at <span class="main_transaction_time">18:00</span> with a <span class="main_transaction_type">myki - machine </span></p><span class="main_transaction_amount">+ $25.00</span>
+          </div>
+        </div>
+      </div>
+      <div class="sub_journeys col-3-4">
+        <div class="journey">
+          <div class="sub_journey_type train col-1-4">Train</div>
+          <div class="sub_journey_fromto col-1-2">
+            <div class="train_journey_start">Windsor<span class="journey_zone">Z1</span><span class="journey_time">0905</span></div>
+            <div class="train_journey_end">Flinders Street<span class="zone">Z1</span><span class="journey_time">0915</span></div>
+          </div>
+          <div class="train_journey_description col-1-4">
+            <Two>hour Z1 fare. $3.50 charged - expires at 1200</Two>
+          </div>
+        </div>
+        <div class="journey">
+          <div class="sub_journey_type tram col-1-4">Tram</div>
+          <div class="tram_journey col-1-2">Touch on, no touch off<span class="journey_zone">Z1</span><span class="journey_time">0925</span></div>
+          <div class="tram_journey_description col-1-4">
+            <Previous>two hour fare Z1 still applies, no touch off</Previous>
+          </div>
+        </div>
+        <div class="journey">
+          <div class="sub_journey_type tram col-1-4">Tram</div>
+          <div class="tram_journey col-1-2">Touch on, no touch off<span class="journey_zone">Z1</span><span class="journey_time">1310</span></div>
+          <div class="tram_journey_description col-1-4">
+            <Daily>Z1 fare. $3.50 will be charged at next touch on.</Daily>
+          </div>
+        </div>
+        <div class="journey">
+          <div class="sub_journey_type train col-1-4">Train</div>
+          <div class="sub_journey_fromto col-1-2">
+            <div class="train_journey_start">Flinders Street<span class="journey_zone">Z1</span><span class="journey_time">1600</span></div>
+            <div class="train_journey_end">Windsor<span class="journey_zone">Z1</span><span class="journey_time">1620</span></div>
+          </div>
+          <div class="train_journey_description col-1-4">
+            <Daily>Z1 cap has been reached. No fare charged.</Daily>
+          </div>
+        </div>
+        <div class="journey">
+          <div class="sub_journey_type bus col-1-4">Bus</div>
+          <div class="sub_journey_fromto col-1-2">
+            <div class="bus_journey_start">Touch on<span class="journey_zone">Z1</span><span class="journey_time">1900</span></div>
+            <div class="bus_journey_end">Touch off<span class="journey_zone">Z2</span><span class="journey_time">1940</span></div>
+          </div>
+          <div class="bus_journey_description col-1-4">
+            <Daily>Z1 cap has been reached. No Z1 fare charged.</Daily>
+            <Two>hour Z2 fare. $2.42 charged - expires at 0300.</Two>
+          </div>
+        </div>
+        <div class="journey">
+          <div class="sub_journey_type bus col-1-4">Bus</div>
+          <div class="sub_journey_fromto col-1-2">
+            <div class="bus_journey_start">Touch on<span class="journey_zone">Z2</span><span class="journey_time">2300</span></div>
+            <div class="bus_journey_end">Touch off<span class="journey_zone">Z1</span><span class="journey_time">2340</span></div>
+          </div>
+          <div class="bus_journey_description col-1-4">
+            <Daily>Z1 cap has been reached. No Z1 fare charged.</Daily>
+            <Two>hour Z2 fare. $2.42 charged - expires at 0300.</Two>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

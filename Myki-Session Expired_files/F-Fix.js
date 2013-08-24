@@ -1,0 +1,1 @@
+﻿function flashFix(o){document.write(o)}

@@ -1,0 +1,24 @@
+﻿ul#Tree{
+	float: left;
+	width: 150px;
+	padding-left:40px;
+	font-size:0.95em;
+    line-height: 2.1em
+}
+
+ul#Tree li
+{
+	width: 250px;
+    float: left;
+    font-size:0.95em;
+    line-height: 1.9em
+}
+
+ul#Tree li ul
+{
+	 width: 250px;
+	 float: left;
+	 padding-left:30px;
+	 font-size:1.05em;
+    line-height: 2.1em
+}

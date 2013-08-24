@@ -1,0 +1,110 @@
+doctype 5
+html
+	head
+		// I'm not sure what the title is
+		title Myki Parse
+		link(rel='stylesheet', href='styles.css')
+		link(rel='stylesheet', href='grid.css')
+	body
+		.box.grid.grid-
+			.menu
+				p
+					| Current Balance: 
+					strong $72.40
+			.main_box.col-1-4
+				.main_days
+					h1 Monday
+					h3 August 7
+					.main_transaction
+						p Topped up at 
+							span.main_transaction_time 11:30
+							|  with a 
+							span.main_transaction_type myki - machine 
+						span.main_transaction_amount + $10.00
+
+				.main_days
+					h1 Tuesday
+					h3 August 8
+					.main_transaction
+						p Topped up at 
+							span.main_transaction_time 07:45
+							|  with a 
+							span.main_transaction_type myki - machine 
+						span.main_transaction_amount + $3.70
+
+				.main_days
+					h1 Wednesday
+					h3 August 9
+					.main_transaction
+						p Topped up at 
+							span.main_transaction_time 18:00
+							|  with a 
+							span.main_transaction_type myki - machine 
+						span.main_transaction_amount + $25.00
+
+			.sub_journeys.col-3-4
+				.journey
+					.sub_journey_type.train.col-1-4 Train
+					.sub_journey_fromto.col-1-2
+						.train_journey_start Windsor
+							span.journey_zone Z1
+							span.journey_time 0905
+						.train_journey_end Flinders Street
+							span.zone Z1
+							span.journey_time 0915
+					.train_journey_description.col-1-4
+						Two hour Z1 fare. $3.50 charged - expires at 1200
+
+				.journey
+					.sub_journey_type.tram.col-1-4 Tram
+					.tram_journey.col-1-2 Touch on, no touch off
+						span.journey_zone Z1
+						span.journey_time 0925
+					.tram_journey_description.col-1-4
+						Previous two hour fare Z1 still applies, no touch off
+
+				.journey
+					.sub_journey_type.tram.col-1-4 Tram
+					.tram_journey.col-1-2 Touch on, no touch off
+						span.journey_zone Z1
+						span.journey_time 1310
+					.tram_journey_description.col-1-4
+						Daily Z1 fare. $3.50 will be charged at next touch on.
+
+				.journey
+					.sub_journey_type.train.col-1-4 Train
+					.sub_journey_fromto.col-1-2
+						.train_journey_start Flinders Street
+							span.journey_zone Z1
+							span.journey_time 1600
+						.train_journey_end Windsor
+							span.journey_zone Z1
+							span.journey_time 1620
+					.train_journey_description.col-1-4
+						Daily Z1 cap has been reached. No fare charged.
+
+				.journey
+					.sub_journey_type.bus.col-1-4 Bus
+					.sub_journey_fromto.col-1-2
+						.bus_journey_start Touch on
+							span.journey_zone Z1
+							span.journey_time 1900
+						.bus_journey_end Touch off
+							span.journey_zone Z2
+							span.journey_time 1940
+					.bus_journey_description.col-1-4
+						Daily Z1 cap has been reached. No Z1 fare charged.
+						Two hour Z2 fare. $2.42 charged - expires at 0300.
+
+				.journey
+					.sub_journey_type.bus.col-1-4 Bus
+					.sub_journey_fromto.col-1-2
+						.bus_journey_start Touch on
+							span.journey_zone Z2
+							span.journey_time 2300
+						.bus_journey_end Touch off
+							span.journey_zone Z1
+							span.journey_time 2340
+					.bus_journey_description.col-1-4
+						Daily Z1 cap has been reached. No Z1 fare charged.
+						Two hour Z2 fare. $2.42 charged - expires at 0300.
